@@ -1,0 +1,46 @@
+# Ignore data directories
+data/
+datasets/
+*.data/
+*.dataset/
+
+# Ignore common data file formats
+*.csv
+*.tsv
+*.json
+*.xml
+*.xlsx
+*.xls
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.npz
+*.npy
+*.mat
+
+# Ignore image and binary data
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+*.tiff
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Ignore PyTorch and TensorFlow model files
+*.pt
+*.pth
+*.ckpt
+*.pb
+*.onnx
+
+# Ignore cache and temporary files
+*.log
+*.tmp
+*.bak
+__pycache__/
+*.py[cod]
